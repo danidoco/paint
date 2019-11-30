@@ -18,3 +18,14 @@ body {
 .controls {
   margin-top: 5px;
 }
+
+.controls__colors {
+  margin-bottom: 5px;
+}
+
+.color {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  display: inline-block;
+}
