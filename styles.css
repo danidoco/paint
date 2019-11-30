@@ -29,7 +29,6 @@ body {
   height: 35px;
   border-radius: 50%;
   display: block;
-  margin: 0;
 }
 
 .black {
@@ -69,5 +68,5 @@ body {
 } 
 
 .purple {
-  background-color: #ed00d5;
+  background-color: #800080;
 }
