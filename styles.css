@@ -21,6 +21,7 @@ body {
 
 .controls__colors {
   margin-bottom: 5px;
+  display: flex;
 }
 
 .color {
