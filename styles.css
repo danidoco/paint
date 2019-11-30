@@ -4,7 +4,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
 }
 
 .canvas {
