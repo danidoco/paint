@@ -7,7 +7,7 @@ canvas.width = 660;
 canvas.height = 640;
 
 ctx.strokeStyle = "#2c2c2c";
-ctx.lineWidth = 2.5;
+ctx.lineWidth = 1;
 
 function draw(event) {
    const x = event.offsetX;
