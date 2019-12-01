@@ -34,3 +34,13 @@ canvas.addEventListener("mousemove", draw);
 canvas.addEventListener("mousedown", beginPainting);
 canvas.addEventListener("mouseup", endPainting);
 canvas.addEventListener("mouseleave", endPainting);
+
+const colors = document.querySelectorAll(".color")
+
+function handleColor(event) {
+   ctx.strokeStyle = event.target.style.backgroundColor
+}
+
+Array.from(colors).forEach((color) => {
+   color.addEventListener("click", handleColor)
+})
