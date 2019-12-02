@@ -79,4 +79,12 @@ function handleBrushSize(event) {
   ctx.lineWidth = event.target.value;
 }
 
-brushSizeSlider.addEventListener("input", handleBrushSize)
+brushSizeSlider.addEventListener("input", handleBrushSize);
+
+const clearBtn = document.querySelector(".clear");
+
+function clear() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+clearBtn.addEventListener("click", clear)
