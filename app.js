@@ -71,6 +71,10 @@ modeBtn.addEventListener("click", handleModeClick);
 
 const brushSizeSlider = document.querySelector(".brush-size");
 
+window.onload = () => {
+  brushSizeSlider.value = 0.1;
+}
+
 function handleBrushSize(event) {
   ctx.lineWidth = event.target.value;
 }
