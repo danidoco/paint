@@ -8,7 +8,7 @@ canvas.width = 660;
 canvas.height = 640;
 
 ctx.strokeStyle = "#2c2c2c";
-ctx.lineWidth = 1;
+ctx.lineWidth = 0.1;
 
 function draw(event) {
   const x = event.offsetX;
@@ -68,3 +68,11 @@ function fill() {
 canvas.addEventListener("click", fill);
 
 modeBtn.addEventListener("click", handleModeClick);
+
+const brushSizeSlider = document.querySelector(".brush-size");
+
+function handleBrushSize(event) {
+  ctx.lineWidth = event.target.value;
+}
+
+brushSizeSlider.addEventListener("input", handleBrushSize)
