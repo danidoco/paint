@@ -47,3 +47,7 @@ body {
 .btn:active {
   background-color: #f5f5f5;
 }
+
+.mode {
+  width: 155px;
+}

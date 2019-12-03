@@ -51,10 +51,10 @@ const modeBtn = document.querySelector(".mode");
 function handleModeClick() {
   if (filling) {
     filling = false;
-    modeBtn.innerText = "FILL";
+    modeBtn.innerText = "TURN TO FILL MODE";
   } else {
     filling = true;
-    modeBtn.innerText = "DRAW";
+    modeBtn.innerText = "TURN TO DRAW MODE";
   }
 }
 
