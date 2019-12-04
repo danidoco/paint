@@ -73,7 +73,7 @@ const brushSizeSlider = document.querySelector(".brush-size");
 
 window.onload = () => {
   brushSizeSlider.value = 0.1;
-}
+};
 
 function handleBrushSize(event) {
   ctx.lineWidth = event.target.value;
@@ -87,4 +87,16 @@ function clear() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
-clearBtn.addEventListener("click", clear)
+clearBtn.addEventListener("click", clear);
+
+const saveBtn = document.querySelector(".save");
+
+function download() {
+  const imgData = canvas.toDataURL("image/png")
+  const downloadTrigger = document.createElement("a");
+  downloadTrigger.href = imgData;
+  downloadTrigger.download = "painting.png";
+  downloadTrigger.click();
+}
+
+saveBtn.addEventListener("click", download);
