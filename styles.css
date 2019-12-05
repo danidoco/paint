@@ -33,6 +33,11 @@ body {
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+.controls__btns {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 .btn {
   width: 60px;
   height: 30px;
@@ -50,4 +55,8 @@ body {
 
 .mode {
   width: 165px;
+}
+
+.controls__sliders {
+  margin-bottom: 5px;
 }
