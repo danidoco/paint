@@ -58,6 +58,10 @@ body {
   width: 165px;
 }
 
+.save-as {
+  width: 80px;
+}
+
 .controls__sliders {
   margin-bottom: 5px;
 }
