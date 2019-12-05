@@ -8,12 +8,12 @@ body {
 }
 
 .canvas {
-   width: 700px;
-   height: 700px;
-   background-color: #fff;
-   border-radius: 5px;
-   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-   margin-top: 15px;
+  width: 700px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-top: 15px;
 }
 
 .controls {
@@ -44,6 +44,8 @@ body {
   height: 30px;
   border: 1px solid #bdbdbd;
   background-color: #fff;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
 }
 
 .btn:hover {
