@@ -4,8 +4,8 @@ const ctx = canvas.getContext("2d");
 let painting = false;
 let filling = false;
 
-canvas.width = 660;
-canvas.height = 640;
+canvas.width = 700;
+canvas.height = 700;
 
 ctx.strokeStyle = "#2c2c2c";
 ctx.lineWidth = 0.1;
