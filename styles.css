@@ -34,6 +34,19 @@ body {
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+.eraser {
+  border-radius: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  align-items: center;
+}
+
+.eraser::before {
+  content: "ERASER";
+}
+
 .controls__btns {
   margin-top: 15px;
   margin-bottom: 10px;
