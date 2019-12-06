@@ -36,6 +36,9 @@ canvas.addEventListener("mousedown", beginPainting);
 canvas.addEventListener("mouseup", endPainting);
 canvas.addEventListener("mouseleave", endPainting);
 
+ctx.fillStyle = "#fff";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+
 const colors = document.querySelectorAll(".color");
 
 function handleColor(event) {
@@ -92,7 +95,7 @@ clearBtn.addEventListener("click", clear);
 const saveBtn = document.querySelector(".save");
 
 function download() {
-  const imgData = canvas.toDataURL("image/png")
+  const imgData = canvas.toDataURL("image/png");
   const downloadTrigger = document.createElement("a");
   downloadTrigger.href = imgData;
   downloadTrigger.download = "painting.png";
