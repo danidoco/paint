@@ -87,7 +87,8 @@ brushSizeSlider.addEventListener("input", handleBrushSize);
 const clearBtn = document.querySelector(".clear");
 
 function clear() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "#fff"
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
 clearBtn.addEventListener("click", clear);
